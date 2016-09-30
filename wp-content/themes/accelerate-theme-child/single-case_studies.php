@@ -23,7 +23,7 @@ get_header(); ?>
                 $link = get_field('site_link');
                 $image_1 = get_field('image_1');
                 $image_2 = get_field('image_2');
-                $image_3 = get_field('image_3');?>
+                $image_3 = get_field('image_3'); ?>
 
             <article class="case-study">
                 <aside class="case-study-sidebar">
@@ -33,7 +33,7 @@ get_header(); ?>
 
                 <?php the_content(); ?>
 
-                <p><strong><a href="<?php echo% link; ?>">Site Link</a></strong></p>
+                <p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p>
 
                 </aside>
 
@@ -53,7 +53,7 @@ get_header(); ?>
 
                 </div>
             </article>
-				<?php the_content(); 
+				<?php the_content(); ?>
 			<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
