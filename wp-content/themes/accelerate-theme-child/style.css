@@ -24,7 +24,7 @@
 }
 #masthead nav ul li {
     float: left;
-    margin: 0 10px;
+    margin: -24px 5px 5px 10px;
 }
 
 .blog-post {
@@ -73,4 +73,12 @@ div.case-study-images img {
     display: block;
     margin-bottom: 50px;
     border: 1px solid #dddddd;
+}
+
+.individual-featured-work {
+    display:  inline;
+    float: left;
+    padding: 20px;
+    margin:  auto;
+    
 }
