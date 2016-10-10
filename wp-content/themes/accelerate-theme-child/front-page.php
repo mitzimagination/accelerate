@@ -44,20 +44,7 @@ get_header(); ?>
 
                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
             </li>
-            <li class="individual-featured-work">
-                <figure>
-                    <?php echo wp_get_attachment_image($image_2, $size); ?>
-                </figure>
-
-                <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-            </li>
-            <li class="individual-featured-work">
-                <figure>
-                    <?php echo wp_get_attachment_image($image_3, $size); ?>
-                </figure>
-
-                <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-            </li>
+            
             
         <?php endwhile; //end of the loop. ?>
         <?php wp_reset_query(); // resets the altered query back to the original ?>
