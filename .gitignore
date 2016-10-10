@@ -3,4 +3,22 @@
 wp-config.php
 .htaccess
 wp-content/uploads/
+bin/AMD64/Microsoft.VC90.CRT/msvcr90.dll
+bin/AMD64/sqlceca40.dll
+bin/AMD64/sqlcecompact40.dll
+bin/AMD64/sqlceer40EN.dll
+bin/AMD64/sqlceme40.dll
+bin/AMD64/sqlceqp40.dll
+bin/AMD64/sqlcese40.dll
+bin/System.Data.SqlServerCe.Entity/System.Data.SqlServerCe.Entity.dll
+bin/System.Data.SqlServerCe.dll
+bin/X86/Microsoft.VC90.CRT/msvcr90.dll
+bin/X86/sqlceca40.dll
+bin/X86/sqlcecompact40.dll
+bin/X86/sqlceer40EN.dll
+bin/X86/sqlceme40.dll
+bin/X86/sqlceqp40.dll
+bin/X86/sqlcese40.dll
+ 
+
 
