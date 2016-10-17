@@ -193,10 +193,11 @@ div.case-study-images img {
 /*404_Page*/
 
 .unknown-page {
-    background: url("img/hero-image.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    background: url("img/walking.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
     height: 440px;
     margin: 0 0 80px;
     padding: 100px 0;
+    text-align: center;	
 }
 
 .unknown-hero {
@@ -205,7 +206,8 @@ div.case-study-images img {
 
 .unknown-hero h1 {
 	color:white;
-	font-weight:bold;	
+	font-weight:bold;
+    
 }
 
 .unknown-hero h3 {
