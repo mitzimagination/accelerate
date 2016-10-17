@@ -124,10 +124,10 @@ div.case-study-images img {
 /*About Page*/
 
 .about-page {
-    background: url("img/hero-image.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
     height: 440px;
-    margin: 0 0 80px;
-    padding: 100px 0;
+    padding-top: 80px;
+   
 }
 
 .about-hero {
@@ -136,7 +136,8 @@ div.case-study-images img {
 
 .about-hero h1 {
 	color:white;
-	font-weight:bold;	
+	font-weight:normal;
+    	
 }
 
 .about-hero h3 {
@@ -147,4 +148,71 @@ div.case-study-images img {
     margin: 16px 0 80px;
 }
 
+.color-scheme {
+    color: #45ac9d;
+}
+
+/*About Page Services*/
+
+.about-services-posts {
+  overflow: hidden;
+  margin-top: 50px;
+}
+.services-title {
+    text-align: center;
+}
+
+.about-services-content {
+    width: 68%;
+    float: left;
+}
+   
+
+.about-services-images {
+    float: left;
+    width: 29%;
     
+}
+
+.services-post-title {
+    font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.about-services-posts:nth-child(odd) .about-services-images {
+    float:left;
+    margin-right: 3%;
+}
+.about-services-posts:nth-child(even) .about-services-images {
+     float:right;
+     margin-left: 3%;
+}
+
+/*404_Page*/
+
+.unknown-page {
+    background: url("img/hero-image.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 440px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+}
+
+.unknown-hero {
+	text-align:center;
+}
+
+.unknown-hero h1 {
+	color:white;
+	font-weight:bold;	
+}
+
+.unknown-hero h3 {
+    color: white;
+    font-family: "open sans";
+    font-size: 24px;
+    font-weight: normal;
+    margin: 16px 0 80px;
+}
+
