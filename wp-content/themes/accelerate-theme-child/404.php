@@ -17,7 +17,7 @@ get_header(); ?>
 <section class="unknown-page">
 
 	<div class="site-content">
-           <h1>Oops! I seems this page does not exist.</h1>
+           <h1>Oops! It looks like you need to call a cab because walking looks difficult on this page.</h1>
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class='unknown-hero'>
                
@@ -26,7 +26,7 @@ get_header(); ?>
 				<a class="button" href="<?php echo home_url(); ?>/blog">View Our Work</a>
 			</div>
 		<?php endwhile; // end of the loop. ?>
-	</div><!-- .container -->
+	</div><!-- .site content -->
 </section><!-- .home-page -->
 
 <?php get_footer(); ?>

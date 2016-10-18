@@ -28,7 +28,8 @@
 }
 
 .blog-post {
-	width: 50%;
+	width: 40%;
+    float: left;
 }
 
 .blog-post h4 {
@@ -210,6 +211,7 @@ div.case-study-images img {
     
 }
 
+
 .unknown-hero h3 {
     color: white;
     font-family: "open sans";
@@ -217,4 +219,35 @@ div.case-study-images img {
     font-weight: normal;
     margin: 16px 0 80px;
 }
+
+/*Twitter Widget*/
+
+.widget-area {
+    width: 48%;
+    float: right;
+    clear: initial;
+    border-bottom: 1px solid #bfbfbf;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+    margin-top: 16px; 
+    font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+     
+}
+
+.widget {
+	font-size: 0.83em;
+	font-weight: 600;
+	padding: 0 40px;
+}
+.widget-title {
+    color: #45ac9d;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 20px 0 5px;
+}
+
+
 

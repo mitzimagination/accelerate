@@ -20,6 +20,8 @@ get_header(); ?>
 	<div class="site-content">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class='homepage-hero'>
+            <h1>Accelerate Your Marketing</h1>
+            <h3>Save time. Increase sales. Make customers happier.</h3>
 				<?php the_content(); ?>
 				<a class="button" href="<?php echo home_url(); ?>/blog">View Our Work</a>
 			</div>
@@ -65,6 +67,21 @@ get_header(); ?>
      <?php endwhile; ?> 
         </div>
     </div>
+</section>
+
+<section>
+<div class="widget">
+<div class="widget-title">
+<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+<div id="secondary" class="widget-area" role="complementary">
+
+	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+
+<?php endif; ?>
+    </div>
+    </div>
+   </div>
+</div>
 </section>
 
 <?php get_footer(); ?>

@@ -621,7 +621,7 @@ aside.sidebar {
 .entry-summary .wp-caption iframe {
 	width: 100%;
 	height: 375px;
-	display: block;
+	display: inline;
 }
 .entry-summary a {
 	color: #45ac9d;
