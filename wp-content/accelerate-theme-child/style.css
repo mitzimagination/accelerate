@@ -1,0 +1,253 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Miriam
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+@import url("../accelerate-theme/style.css");
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    
+}
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+    
+}
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+    
+}
+#masthead nav ul li {
+    float: left;
+    margin: -24px 5px 5px 10px;
+}
+
+.blog-post {
+	width: 40%;
+    float: left;
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+.blog-post .read-more-link {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/*Case Studies*/
+
+article.case-study {
+    margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+    float: left;
+    width: 300px;
+    margin: 0 40px 0 0;
+}
+
+div.case-study-images {
+    float: left;
+    width: 600px;
+}
+
+div.case-study-images img {
+    display: block;
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
+}
+
+.individual-featured-work {
+    display:  inline;
+    float: left;
+    padding: 5px;
+    margin:  auto;
+    
+}
+
+/*Ninja Form*/
+
+.nf-form-title {
+  display: none;
+}
+.nf-form-fields-required {
+	display: none;
+}
+.nf-field .nf-field-label label {
+    font-weight: normal;
+    font-size: .9em;
+}
+.nf-field-container.textbox-container.label-above,
+.nf-field-container.email-container.label-above {
+    display: block;
+    width: 49%;
+    float: left;    
+    clear: initial;
+}
+.nf-field-container.email-container.label-above {
+  margin-left: 2%;
+  
+}
+#nf-field-1, #nf-field-2 {
+  height: 40px;
+  border: 10px, solid, gray;
+}
+#nf-field-4 {
+  float: right;
+  color: #FFF;
+  font-family: 'Montserrat', serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #45AC9D;
+  padding: 15px 80px;
+  border: 10px, solid, gray;
+}
+
+/*About Page*/
+
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 440px;
+    padding-top: 80px;
+   
+}
+
+.about-hero {
+	text-align:center;
+}
+
+.about-hero h1 {
+	color:white;
+	font-weight:normal;
+    	
+}
+
+.about-hero h3 {
+    color: white;
+    font-family: "open sans";
+    font-size: 24px;
+    font-weight: normal;
+    margin: 16px 0 80px;
+}
+
+.color-scheme {
+    color: #45ac9d;
+}
+
+/*About Page Services*/
+
+.about-services-posts {
+  overflow: hidden;
+  margin-top: 50px;
+}
+.services-title {
+    text-align: center;
+}
+
+.about-services-content {
+    width: 68%;
+    float: left;
+}
+   
+
+.about-services-images {
+    float: left;
+    width: 29%;
+    
+}
+
+.services-post-title {
+    font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.about-services-posts:nth-child(odd) .about-services-images {
+    float:left;
+    margin-right: 3%;
+}
+.about-services-posts:nth-child(even) .about-services-images {
+     float:right;
+     margin-left: 3%;
+}
+
+/*404_Page*/
+
+.unknown-page {
+    background: url("img/walking.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 440px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+    text-align: center;	
+}
+
+.unknown-hero {
+	text-align:center;
+}
+
+.unknown-hero h1 {
+	color:white;
+	font-weight:bold;
+    
+}
+
+
+.unknown-hero h3 {
+    color: white;
+    font-family: "open sans";
+    font-size: 24px;
+    font-weight: normal;
+    margin: 16px 0 80px;
+}
+
+/*Twitter Widget*/
+
+.widget-area {
+    width: 48%;
+    float: right;
+    clear: initial;
+    border-bottom: 1px solid #bfbfbf;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+    margin-top: 16px; 
+    font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+     
+}
+
+.widget {
+	font-size: 0.83em;
+	font-weight: 600;
+	padding: 0 40px;
+}
+.widget-title {
+    color: #45ac9d;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 20px 0 5px;
+}
+
+
+
